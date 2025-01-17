@@ -389,8 +389,8 @@
             "children": [
               {
                 "kind": "Var",
-                "name": "MALE",
-                "printedName": "MALE",
+                "name": "male",
+                "printedName": "male",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -420,14 +420,14 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:22TreasureIslandSceneKit7ProfileV6GenderO4MALEyA2EmF",
-                "mangledName": "$s22TreasureIslandSceneKit7ProfileV6GenderO4MALEyA2EmF",
+                "usr": "s:22TreasureIslandSceneKit7ProfileV6GenderO4maleyA2EmF",
+                "mangledName": "$s22TreasureIslandSceneKit7ProfileV6GenderO4maleyA2EmF",
                 "moduleName": "TreasureIslandSceneKit"
               },
               {
                 "kind": "Var",
-                "name": "FEMALE",
-                "printedName": "FEMALE",
+                "name": "female",
+                "printedName": "female",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -457,8 +457,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:22TreasureIslandSceneKit7ProfileV6GenderO6FEMALEyA2EmF",
-                "mangledName": "$s22TreasureIslandSceneKit7ProfileV6GenderO6FEMALEyA2EmF",
+                "usr": "s:22TreasureIslandSceneKit7ProfileV6GenderO6femaleyA2EmF",
+                "mangledName": "$s22TreasureIslandSceneKit7ProfileV6GenderO6femaleyA2EmF",
                 "moduleName": "TreasureIslandSceneKit"
               },
               {
@@ -641,14 +641,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Gender",
-                    "printedName": "TreasureIslandSceneKit.Profile.Gender",
-                    "usr": "s:22TreasureIslandSceneKit7ProfileV6GenderO"
+                    "name": "Optional",
+                    "printedName": "TreasureIslandSceneKit.Profile.Gender?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Gender",
+                        "printedName": "TreasureIslandSceneKit.Profile.Gender",
+                        "usr": "s:22TreasureIslandSceneKit7ProfileV6GenderO"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:22TreasureIslandSceneKit7ProfileV7BuilderC10withGender6genderAeC0H0O_tF",
-                "mangledName": "$s22TreasureIslandSceneKit7ProfileV7BuilderC10withGender6genderAeC0H0O_tF",
+                "usr": "s:22TreasureIslandSceneKit7ProfileV7BuilderC10withGender6genderAeC0H0OSg_tF",
+                "mangledName": "$s22TreasureIslandSceneKit7ProfileV7BuilderC10withGender6genderAeC0H0OSg_tF",
                 "moduleName": "TreasureIslandSceneKit",
                 "declAttributes": [
                   "AccessControl"
@@ -668,14 +676,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:22TreasureIslandSceneKit7ProfileV7BuilderC13withBirthYear05birthI0AESi_tF",
-                "mangledName": "$s22TreasureIslandSceneKit7ProfileV7BuilderC13withBirthYear05birthI0AESi_tF",
+                "usr": "s:22TreasureIslandSceneKit7ProfileV7BuilderC13withBirthYear05birthI0AESiSg_tF",
+                "mangledName": "$s22TreasureIslandSceneKit7ProfileV7BuilderC13withBirthYear05birthI0AESiSg_tF",
                 "moduleName": "TreasureIslandSceneKit",
                 "declAttributes": [
                   "AccessControl"

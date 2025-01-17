@@ -27,7 +27,7 @@ import _SwiftConcurrencyShims
 }
 public struct Profile {
   public enum Gender {
-    case MALE, FEMALE
+    case male, female
     public static func == (a: TreasureIslandSceneKit.Profile.Gender, b: TreasureIslandSceneKit.Profile.Gender) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
@@ -36,8 +36,8 @@ public struct Profile {
   }
   public class Builder {
     public init(signKey: Swift.String)
-    public func withGender(gender: TreasureIslandSceneKit.Profile.Gender) -> TreasureIslandSceneKit.Profile.Builder
-    public func withBirthYear(birthYear: Swift.Int) -> TreasureIslandSceneKit.Profile.Builder
+    public func withGender(gender: TreasureIslandSceneKit.Profile.Gender?) -> TreasureIslandSceneKit.Profile.Builder
+    public func withBirthYear(birthYear: Swift.Int?) -> TreasureIslandSceneKit.Profile.Builder
     public func build(completionHandler: @escaping (_ success: Swift.Bool, _ message: Swift.String) -> Swift.Void)
     @objc deinit
   }

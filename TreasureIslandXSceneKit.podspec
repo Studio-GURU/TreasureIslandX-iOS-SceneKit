@@ -3,13 +3,13 @@ Pod::Spec.new do |spec|
     spec.swift_version          = '5.0'
     spec.name                   = 'TreasureIslandXSceneKit'
     spec.module_name            = 'TreasureIslandXSceneKit'
-    spec.version                = '25.3.2'
+    spec.version                = '25.3.3'
     spec.summary                = 'GuruCompany Treasure Island SDK'
     spec.homepage               = 'https://github.com/Studio-GURU/TreasureIsland-SDK/tree/main/iOS-SDK'    
     spec.author                 = { 'Guru Company Studio' => 'engineer@gurucompany.co.kr' }
     spec.platform               = :ios, '13.0'
     spec.ios.deployment_target  = '13.0'
-    spec.source                 = { :git => 'https://github.com/Studio-GURU/TreasureIslandX-iOS-SceneKit.git', :tag => '25.3.2' }
+    spec.source                 = { :git => 'https://github.com/Studio-GURU/TreasureIslandX-iOS-SceneKit.git', :tag => '25.3.3' }
     spec.vendored_frameworks    = 'TreasureIslandXSceneKit.xcframework'
     spec.description            = 'Library for providing a webtoon system for iOS application in GuruCompany'
     spec.license                = { :type => 'MIT', :text => <<-LICENSE

@@ -1,2 +1,2 @@
-# TreasureIsland-iOS-SceneKit
-TreasureIsland-iOS-SceneKit
+# TreasureIslandX-iOS-SceneKit
+TreasureIslandX-iOS-SceneKit
